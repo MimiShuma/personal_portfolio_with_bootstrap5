@@ -16,7 +16,7 @@
 <body>
     <div class="bg_container">
         <!-- header section  -->
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar fixed-top navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="logo icon"
                         class="logo_main"></a>
@@ -68,9 +68,9 @@
         </nav>
 
         <!-- main body section  -->
-        <div class="container">
+        <div class="container" style="margin-top: -16px;">
             <!-- intro section -->
-            <div class="main text-center my-3">
+            <div class="main text-center mb-3" style="padding-top: 10rem;">
                 <div class="row justify-content-center align-items-baseline">
                     <div class="col-6"><img src="assets/images/2.png" alt="photo of shuma" class="img_section" /></div>
                     <div class="col-6">
@@ -85,7 +85,7 @@
                 <div class="col-6 ps-5">
                     <div class="row">
                         <div class="col-12" style="text-align: justify;">
-                            <h1>This is Shumas' Resume</h1>
+                            <h2 class="fs-1">This is Shumas' Resume</h2>
                             <p>Hello! I'm an aspiring Front End Developer with a passion for designing appealing
                                 websites. I've developed my HTML5, CSS3, Bootstrap, and JavaScript skills to ensure that
                                 your site looks amazing and operates properly. In addition, I am competent in graphic
@@ -123,6 +123,222 @@
                 </div>
                 <div class="col-5 offset-1"><img src="assets/images/about-me-img.png" alt="photo of shuma" /></div>
             </div>
+
+            <!-- my skill section -->
+            <div class="container">
+                <div class="row align-items-center ps-5">
+                    <div class="col-md-6">
+                        <div class="demo">
+                            <h3 class="progress-title text-white">HTML&nbsp;5</h3>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:87%; background:#ef2d56;">
+                                    <div class="progress-value">87%</div>
+                                </div>
+                            </div>
+                            <h3 class="progress-title text-white">CSS&nbsp;3</h3>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:65%; background:#ff9900;">
+                                    <div class="progress-value">65%</div>
+                                </div>
+                            </div>
+                            <h3 class="progress-title text-white">SASS</h3>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:70%; background:#82b700">
+                                    <div class="progress-value">70%</div>
+                                </div>
+                            </div>
+                            <h3 class="progress-title text-white">BOOTSTRAP&nbsp;5.3</h3>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:40%; background:#00ebdd">
+                                    <div class="progress-value">40%</div>
+                                </div>
+                            </div>
+                            <h3 class="progress-title text-white">JAVASCRIPT</h3>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:10%; background:#cc00eb">
+                                    <div class="progress-value">10%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 offset-1 text-white">
+                        <h2 class="fs-1 text-start">My Skills:</h2>
+                        <p>Proficient in HTML5, CSS3, and Sass to translate designs into clean, functional, and
+                            responsive web applications. Adept at using Bootstrap to build mobile-friendly layouts that
+                            adapt to any screen size. Possess a working knowledge of JavaScript to add interactivity and
+                            dynamic elements to web pages.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- project preview section -->
+            <div class="project_preview">
+                <div class="container">
+                    <div class="row mt-5">
+                        <h2 class="text-white fs-1">Project Preview:</h2>
+                        <div class="col-3 mt-3 mb-5">
+                            <div class="card text-white"
+                                style="width: 18rem; height:15rem; border-color: rgb(33, 37, 41);">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bootstrap Buttons <span style="font-size: 15px;"><i
+                                                class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i><i
+                                                class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i><i
+                                                class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i><i
+                                                class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i><i
+                                                class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i></span></h5>
+                                    <p class="card-text" style="height: 7.5rem;">Some quick example text to build on the
+                                        card
+                                        title
+                                        and make up the bulk
+                                        of the card's content.</p>
+                                    <a href="https://codepen.io/pen?template=MWRYzmw"
+                                        class="card-link btn btn-success">Live
+                                        Preview</a>
+                                    <a href="https://github.com/MimiShuma/buttons.git"
+                                        class="card-link btn btn-secondary">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-3 mb-5">
+                            <div class="card text-white"
+                                style="width: 18rem; height:15rem; border-color: rgb(33, 37, 41);">
+                                <div class="card-body">
+                                    <h5 class="card-title">Responsive Image - with CSS media query
+                                        <span style="font-size: 15px;"><i class="fa-solid fa-star fa-2xs"
+                                                style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-2xs"
+                                                style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-2xs"
+                                                style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-2xs"
+                                                style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-2xs"
+                                                style="color: #FFD43B;"></i></span>
+                                    </h5>
+                                    <p class="card-text" style="height:6rem;">Some quick example text to build on the
+                                        card
+                                        title and make up the bulk
+                                        of the card's content.</p>
+                                    <a href="https://codepen.io/pen?template=rNRgGKp"
+                                        class="card-link btn btn-success">Live
+                                        Preview</a>
+                                    <a href="https://github.com/MimiShuma/responsive_image-three_ways_to_do_it/blob/ef7755f6b15655ce5cca5d35182fa64565291787/with_multiple_image_of_aspect_ratio_and_media_query.html"
+                                        class="card-link btn btn-secondary">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-3 mb-5">
+                            <div class="card text-white"
+                                style="width: 18rem; height:15rem; border-color: rgb(33, 37, 41);">
+                                <div class="card-body">
+                                    <h5 class="card-title">Responsive Image - with CSS width property <span
+                                            style="font-size: 15px;"><i class="fa-solid fa-star fa-2xs"
+                                                style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-2xs"
+                                                style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-2xs"
+                                                style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-2xs"
+                                                style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-2xs"
+                                                style="color: #FFD43B;"></i></span></h5>
+                                    <p class="card-text" style="height:6rem;">Some quick example text to build on the
+                                        card
+                                        title and make up the bulk
+                                        of the card's content.</p>
+                                    <a href="https://codepen.io/MimiShuma/pen/Jjzqrva"
+                                        class="card-link btn btn-success">Live
+                                        Preview</a>
+                                    <a href="https://github.com/MimiShuma/responsive_image-three_ways_to_do_it/blob/ef7755f6b15655ce5cca5d35182fa64565291787/with_css_width_property.html"
+                                        class="card-link btn btn-secondary">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-3 mb-5">
+                            <div class="card text-white"
+                                style="width: 18rem; height:15rem; border-color: rgb(33, 37, 41);">
+                                <div class="card-body">
+                                    <h5 class="card-title">Responsive Image - with CSS object fit property and media
+                                        query
+                                        <span style="font-size: 15px;"><i class="fa-solid fa-star fa-2xs"
+                                                style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-2xs"
+                                                style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-2xs"
+                                                style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-2xs"
+                                                style="color: #FFD43B;"></i><i class="fa-solid fa-star fa-2xs"
+                                                style="color: #FFD43B;"></i></span>
+                                    </h5>
+                                    <p class="card-text" style="height:5rem;">Some quick example text to build on the
+                                        card
+                                        title and make up the
+                                        bulk
+                                        of the card's content.</p>
+                                    <a href="https://codepen.io/MimiShuma/pen/NWJVaMN"
+                                        class="card-link btn btn-success">Live
+                                        Preview</a>
+                                    <a href="https://github.com/MimiShuma/responsive_image-three_ways_to_do_it/blob/ef7755f6b15655ce5cca5d35182fa64565291787/with_css_object_fit_property_and_media_query.html"
+                                        class="card-link btn btn-secondary">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- review section -->
+            <div class="home_review">
+                <div class="container">
+                    <div class="row homepage_reviews">
+                        <h2 class="text-start text-white fs-1">What People Say:</h2>
+                        <div class="col-4 mt-3 mb-5">
+                            <div class="card text-center mb-3" style="width: 25rem;">
+                                <div class="card-body text-white">
+                                    <img src="assets/images/user.png" alt="reviewer image" />
+                                    <h5 class="card-title"><span><strong>E. Collin</strong>,</span>&nbsp;<span
+                                            style="font-size: small; opacity: 50%;">Director</span>&nbsp;<span><i
+                                                class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i><i
+                                                class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i><i
+                                                class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i><i
+                                                class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i><i
+                                                class="fa-regular fa-star fa-2xs" style="color: #FFD43B;"></i></span>
+                                    </h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mt-3 mb-5">
+                            <div class="card text-center mb-3 border_black" style="width: 25rem;">
+                                <div class="card-body text-white">
+                                    <img src="assets/images/user.png" alt="reviewer image" />
+                                    <h5 class="card-title"><span><strong>E. Collin</strong>,</span>&nbsp;<span
+                                            style="font-size: small; opacity: 50%;">Director</span>&nbsp;<span><i
+                                                class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i><i
+                                                class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i><i
+                                                class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i><i
+                                                class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i><i
+                                                class="fa-regular fa-star fa-2xs" style="color: #FFD43B;"></i></span>
+                                    </h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mt-3 mb-5">
+                            <div class="card text-center mb-3 border_black" style="width: 25rem;">
+                                <div class="card-body text-white">
+                                    <img src="assets/images/user.png" alt="reviewer image" />
+                                    <h5 class="card-title"><span><strong>E. Collin</strong>,</span>&nbsp;<span
+                                            style="font-size: small; opacity: 50%;">Director</span>&nbsp;<span><i
+                                                class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i><i
+                                                class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i><i
+                                                class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i><i
+                                                class="fa-solid fa-star fa-2xs" style="color: #FFD43B;"></i><i
+                                                class="fa-regular fa-star fa-2xs" style="color: #FFD43B;"></i></span>
+                                    </h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- footer section  -->
@@ -131,7 +347,7 @@
                 <div class="row">
                     <div class="col-6 p-5 my-auto mx-auto">
                         <div class="support_section">
-                            <h2>Contact Me</h2>
+                            <h3>Contact Me</h3>
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Name</label>
                                 <input type="text" class="form-control" id="exampleFormControlInput1"
@@ -151,24 +367,18 @@
                     </div>
                     <div class="col-6 p-5 mx-auto my-auto">
                         <div class="contact_section">
-                            <h2>or, Say Hello!</h2>
+                            <h3>or, Say Hello!</h3>
                             <p class="opacity_50p">010-020-0340</p>
                             <p><a href="#">shuma@domain.com</a></p>
                             <ul class="bottom_utility">
-                                <li><a href="#"><i id="facebook" class="fa-brands fa-square-facebook fa-xl"
-                                            style="color: #949494;"></i></a>
-                                </li>
-                                <li><a href="#"><i id="instagram" class="fa-brands fa-instagram fa-xl"
-                                            style="color: #949494;"></i></a>
-                                </li>
-                                <li><a href="#"><i id="linkedin" class="fa-brands fa-linkedin fa-xl"
-                                            style="color: #949494;"></i></a>
+                                <li><a href="https://www.linkedin.com/in/itz-mimi/" target="_blank"><i id="linkedin"
+                                            class="fa-brands fa-linkedin fa-xl" style="color: #949494;"></i></a>
                                 </li>
                                 <li><a href="#"><i id="youtube" class="fa-brands fa-youtube fa-xl"
                                             style="color: #949494;"></i></a>
                                 </li>
-                                <li><a href="#"><i id="github" class="fa-brands fa-github fa-xl"
-                                            style="color: #949494;"></i></a>
+                                <li><a href="https://github.com/MimiShuma" target="_blank"><i id="github"
+                                            class="fa-brands fa-github fa-xl" style="color: #949494;"></i></a>
                                 </li>
                             </ul>
                             <p>Copyright&copy; 2024 Personal Portfolio of Shuma</p>
