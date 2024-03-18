@@ -92,18 +92,13 @@ a {
 }
 
 .project_preview {
-    margin: 0;
-    padding: 50px;
-    padding-top: 115px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .card {
     margin: 40px;
-    padding: 20px;
-    width: 200px;
-    height: 270px;
+    padding: 5px;
     text-align: center;
     background-color: black;
     border: none;
